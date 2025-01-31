@@ -1,5 +1,5 @@
 .about {
-  background-color: #f6f6f6;
+  background-color: var(--fifth-color);
   padding: 100px 0;
 }
 .about .heading {
@@ -94,7 +94,7 @@
   color: #5b5353;
 }
 .about svg {
-  font-size: 60px;
+  font-size: 80px;
   background-color: #cef5fc;
   margin-right: 20px;
   padding: 20px;

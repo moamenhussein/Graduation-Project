@@ -21,7 +21,7 @@ export default function Navbar() {
     <nav>
       <div className="container">
         <Link href={"/"}>
-          <Image src={LogoImage} alt="Logo Image" />
+          <Image src={LogoImage} alt="Logo Image" className="m-0"/>
         </Link>
         <div id="uls">
           <HiBars3BottomLeft className="barsMenu" onClick={menuMobile} />
@@ -33,10 +33,13 @@ export default function Navbar() {
               <Link href={"/"}>الأطباء</Link>
             </li>
             <li>
-              <Link href={"/"}>التطعيمات</Link>
+              <Link href={"/Vaccinations"}>التطعيمات</Link>
             </li>
             <li>
-              <Link href={"/"}>الملف الشخصي</Link>
+              <Link href={"/profile"}>الملف الشخصي</Link>
+            </li>
+            <li>
+              <Link href={"/MyFavorites"}>العناصر المفضله</Link>
             </li>
             <li className="bell">
               <Link href={"/"}>
@@ -73,13 +76,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link href={"/"}>
-              <CiSaveDown2 />
-              العناصر المحفوظه
-            </Link>
-          </li>
-          <li>
-            <Link href={"/"}>
+            <Link href={"/MyFavorites"}>
               <CiHeart />
               العناصر المفضله
             </Link>

@@ -1,7 +1,7 @@
 import "./journey.css";
 import Image from "next/image";
 import childOne from "../../images/child.jpeg";
-import childTwo from "../../images/childTwo.jpeg";
+import childTwo from "../../images/childTwo.png";
 export default function Journey() {
   return (
     <div className="journey">
@@ -19,13 +19,13 @@ export default function Journey() {
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12">
               <div className="info boxImage">
-                <Image src={childOne} alt="Child One" />
+                <Image src={childOne} alt="Child One" className="iamgeOne"/>
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12">
               <div className="info mt-5 d-flex align-items-center p-5 gap-4">
-                <h3>أمان طفلك يبدأ هنا.</h3>
                 <Image src={childTwo} alt="Child Two" className="childTwo" />
+                <h3>أمان طفلك يبدأ هنا.</h3>
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12">

@@ -1,0 +1,28 @@
+.medical h3 {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--section-head-color);
+}
+.myFavorite .buttons {
+  margin-top: 2.1875rem;
+  display: flex;
+  justify-content: space-around !important;
+  align-items: center;
+}
+.myFavorite .buttons button {
+  border: none;
+  width: 392px;
+  height: 52px;
+  background-color: #f4f0f0;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: var(--main-color);
+  font-size: 28px;
+  font-weight: 400;
+  border: 1px solid var(--main-color);
+}

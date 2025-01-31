@@ -13,9 +13,9 @@ export default function Footer() {
         <div className="container">
           <div className="row m-0">
             <div className="col-lg-3 col-md-6 col-sm-12">
-              <div>
+              <Link href={"/"}>
                 <Image src={footerImage} alt="Footer Image" />
-              </div>
+              </Link>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12">
               <div>

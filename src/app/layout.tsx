@@ -1,11 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Cairo } from "next/font/google";
 import Bootstrapjs from "../Components/Bootstrapjs"
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/navbar/Navbar";
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+import Footer from "@/Components/footer/Footer";
+const cairoInit = Cairo({
+  variable: "--font-Cairo",
   subsets: ["latin"],
 });
 
@@ -27,9 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en" >
       <Bootstrapjs />
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${cairoInit.variable} ${geistMono.variable}`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

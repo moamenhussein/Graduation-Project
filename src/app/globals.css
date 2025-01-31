@@ -1,13 +1,19 @@
+/*Font Family*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Maven+Pro:wght@400..900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   direction: rtl;
+  font-family: "Cairo", serif;
 }
 :root {
-  --main-color: #3640CE;
-  --second-color: #2C3583;
+  --main-color: #3640ce;
+  --second-color: #2c3583;
   --third-color: #65bcfb;
+  --fourth-color: #dfecff;
+  --fifth-color: #f6f6f6;
+  --section-head-color: #1a1e4c;
 }
 /* body {
   overflow: hidden;
@@ -17,4 +23,24 @@ ul li {
 }
 ul li a {
   text-decoration: none;
+}
+.iconsPage {
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  top: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3.75rem;
+}
+.iconsPage a svg {
+  font-size: 48px;
+  color: white;
+  background-color: var(--main-color);
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }

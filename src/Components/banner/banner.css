@@ -1,0 +1,134 @@
+.myFavorite {
+  background-color: #f6f6f6;
+}
+.myFavorite .container {
+  padding: 4rem 0;
+}
+.myFavorite .container h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  color: #1a1e4c;
+}
+.myFavorite .buttons,
+.banner .buttons {
+  margin-top: 2.1875rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+.myFavorite .buttons button,
+.banner .buttons button {
+  border: none;
+  width: 392px;
+  height: 52px;
+  background-color: #f4f0f0;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: var(--main-color);
+  font-size: 28px;
+  font-weight: 400;
+  border: 1px solid var(--main-color);
+}
+@media (max-width: 768px) {
+  .myFavorite .buttons button {
+    width: 200px;
+    height: 40px;
+    gap: 10px;
+    margin: 0 15px;
+  }
+}
+.data {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  row-gap: 1.25rem;
+  column-gap: 5rem;
+  margin-top: 3.125rem !important;
+}
+.data .item {
+  background-color: #F4F0F0;
+  padding: 0 10px 30px 0;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.article {
+  background-color: var(--main-color) !important;
+  color: white !important;
+}
+button.active,
+button.doc {
+  background-color: var(--main-color) !important;
+  color: white !important;
+}
+img {
+  width: 179px;
+  max-width: 100%;
+  height: 150px;
+  margin-top: 64px;
+}
+.data h5 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+}
+.data .icon svg {
+  font-size: 2.5rem;
+  color: var(--second-color);
+  margin-right: 15px;
+}
+.data .headPercentage {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 400;
+}
+.data .lastTitle {
+  color: #b0b0b0;
+  font-size: 20px;
+  font-weight: 400;
+}
+.data a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4250e9;
+}
+@media(max-width: 768px) {
+  .data {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+  .data h5,
+  .data .lastTitle {
+    font-size: 16px;
+  }
+  .data .icon svg {
+    font-size: 1.5rem;
+    margin-left: 15px !important;
+  }
+  .data a {
+    font-size: 12px;
+  }
+}
+.data .more {
+  display: block;
+  /* width: 200px; */
+  text-align: left;
+}
+@media(max-width: 768px) {
+  .data .more {
+    padding-left: 8px;
+  }
+}
+.rateContent {
+  margin-left: 5px;
+  font-size: 15px;
+}
+.rate {
+  color: #FFD90F;
+}

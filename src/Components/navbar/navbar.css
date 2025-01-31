@@ -6,15 +6,15 @@ nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 70px;
 }
-nav .container img {
-  width: 356px;
-  height: 100px;
+nav .container a img {
+  width: 200px;
+  height: 80px;
 }
 @media(max-width: 768px) {
   nav .container img {
-    width: 180px;
+    width: 180px !important;
     height: 80px;
   }
 }

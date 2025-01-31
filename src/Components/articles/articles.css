@@ -36,8 +36,25 @@
 .articles a {
   text-decoration: none;
 }
-.articles a h4 {
-  font-size: 28px;
+.articles a button {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  padding: 8px;
+  font-size: 22px;
   font-weight: bold;
-  color: #1A1E4C;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: transparent;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.articles a button:hover {
+  background-color: var(--main-color);
+  color: white;
 }

@@ -28,8 +28,9 @@
   left: 0;
 }
 .journey .info {
+  position: relative;
   border: 2px solid var(--main-color);
-  padding: 1.25rem 0;
+  padding: 0;
   border-radius: 1.25rem;
   -webkit-border-radius: 1.25rem;
   -moz-border-radius: 1.25rem;
@@ -39,12 +40,22 @@
 }
 .journey img {
   width: 500px;
-  height: 400px;
+  height: 300px;
   border-radius: 12px;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
+}
+.journey .info .iamgeOne {
+  position: relative;
+  width: 100%;
+  height: 100% !important;
+  border-radius: 1.25rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  -ms-border-radius: 1.25rem;
+  -o-border-radius: 1.25rem;
 }
 
 .journey .info .head {
@@ -73,11 +84,10 @@
   .journey .info {
     height: 350px;
   }
-  .journey img {
-    width: 300px;
-    height: 300px;
+  .journey .info .iamgeOne {
+    height: 100% !important;
+    width: 100% !important;
   }
-
   .boxImage {
     margin-top: 2.5rem;
   }
@@ -90,6 +100,21 @@
   }
   .journey h3 {
     font-size: 1.5625rem;
+  }
+}
+.iamgeOne {
+  height: 400px !important;
+}
+
+@media(max-width: 1025px) {
+  .iamgeOne {
+    width: 300px !important;
+    height: 400px !important;
+  }
+}
+@media(max-width: 768px) {
+  .iamgeOne {
+    height: 300px !important;
   }
 }
 @media(max-width: 370px) {
@@ -128,3 +153,4 @@
   border: 15px solid var(--third-color);
   border-left-color: #d9d9d9;
 }
+

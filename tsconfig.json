@@ -22,6 +22,22 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/medical/page.jsx",
+    "src/app/MyFavorites/page.jsx",
+    "src/app/layout.tsx",
+    "src/app/page.jsx",
+    "src/Components/about/About.jsx",
+    "src/Components/articles/Articles.jsx",
+    "src/Components/footer/Footer.jsx",
+    "src/Components/journey/journey.jsx",
+    "src/Components/landing/Landing.jsx",
+    "src/Components/navbar/Navbar.jsx",
+    "src/Components/banner/Banner.jsx"
+, "src/app/VaccinationArticles/page.jsx"  ],
   "exclude": ["node_modules"]
 }
